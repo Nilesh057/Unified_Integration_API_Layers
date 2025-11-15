@@ -1,0 +1,24 @@
+{
+  "agents": {
+    "summarizer": {
+      "endpoint": "/api/summarize",
+      "weight": 0.3
+    },
+    "cognitive": {
+      "endpoint": "/api/process_summary",
+      "weight": 0.3
+    },
+    "rl_agent": {
+      "endpoint": "/api/agent_action",
+      "weight": 0.2
+    },
+    "embedcore": {
+      "endpoint": "/api/embed",
+      "weight": 0.1
+    },
+    "actionsense": {
+      "endpoint": "/api/respond",
+      "weight": 0.1
+    }
+  }
+}
