@@ -1,0 +1,83 @@
+timestamp,agent_name,input_signal,reward,confidence,final_score
+2025-11-19T15:04:53.534605,summarizer,1.0,0.27,0.9,0.8914
+2025-11-19T15:04:53.534605,cognitive,0.85,0.204,0.8,0.8914
+2025-11-19T15:04:53.534605,rl_agent,0.9,0.126,0.7,0.8914
+2025-11-19T15:04:53.534605,embedcore,0.5,0.03,0.6,0.8914
+2025-11-19T15:04:53.534605,actionsense,0.95,0.0475,0.5,0.8914
+2025-11-19T09:34:53.528447,summarizer,"{""rl_reward"": 0.8, ""user_feedback"": 1.0, ""action_success"": 0.9, ""cognitive_score"": 0.7}",0.8914,0.116,0.8914,"[{""agent"": ""summarizer"", ""base_weight"": 0.3, ""confidence"": 0.9, ""final_weight"": 0.27, ""signal"": 1.0, ""contribution"": 0.27}, {""agent"": ""cognitive"", ""base_weight"": 0.3, ""confidence"": 0.8, ""final_weight"": 0.24, ""signal"": 0.85, ""contribution"": 0.204}, {""agent"": ""rl_agent"", ""base_weight"": 0.2, ""confidence"": 0.7, ""final_weight"": 0.13999999999999999, ""signal"": 0.9, ""contribution"": 0.126}, {""agent"": ""embedcore"", ""base_weight"": 0.1, ""confidence"": 0.6, ""final_weight"": 0.06, ""signal"": 0.5, ""contribution"": 0.03}, {""agent"": ""actionsense"", ""base_weight"": 0.1, ""confidence"": 0.5, ""final_weight"": 0.05, ""signal"": 0.95, ""contribution"": 0.0475}]"
+2025-11-19T15:04:54.398971,summarizer,0.75,0.11249999999999999,0.5,0.725
+2025-11-19T15:04:54.398971,cognitive,0.75,0.11249999999999999,0.5,0.725
+2025-11-19T15:04:54.398971,rl_agent,0.75,0.07500000000000001,0.5,0.725
+2025-11-19T15:04:54.398971,embedcore,0.5,0.025,0.5,0.725
+2025-11-19T15:04:54.398971,actionsense,0.75,0.037500000000000006,0.5,0.725
+2025-11-19T09:34:54.390870,summarizer,"{""rl_reward"": 0.5, ""user_feedback"": 0.5, ""action_success"": 0.5, ""cognitive_score"": 0.5}",0.725,0.065,0.725,"[{""agent"": ""summarizer"", ""base_weight"": 0.3, ""confidence"": 0.5, ""final_weight"": 0.15, ""signal"": 0.75, ""contribution"": 0.11249999999999999}, {""agent"": ""cognitive"", ""base_weight"": 0.3, ""confidence"": 0.5, ""final_weight"": 0.15, ""signal"": 0.75, ""contribution"": 0.11249999999999999}, {""agent"": ""rl_agent"", ""base_weight"": 0.2, ""confidence"": 0.5, ""final_weight"": 0.1, ""signal"": 0.75, ""contribution"": 0.07500000000000001}, {""agent"": ""embedcore"", ""base_weight"": 0.1, ""confidence"": 0.5, ""final_weight"": 0.05, ""signal"": 0.5, ""contribution"": 0.025}, {""agent"": ""actionsense"", ""base_weight"": 0.1, ""confidence"": 0.5, ""final_weight"": 0.05, ""signal"": 0.75, ""contribution"": 0.037500000000000006}]"
+2025-11-19T15:04:54.436354,summarizer,0.75,0.11249999999999999,0.5,0.725
+2025-11-19T15:04:54.436354,cognitive,0.75,0.11249999999999999,0.5,0.725
+2025-11-19T15:04:54.436354,rl_agent,0.75,0.07500000000000001,0.5,0.725
+2025-11-19T15:04:54.436354,embedcore,0.5,0.025,0.5,0.725
+2025-11-19T15:04:54.436354,actionsense,0.75,0.037500000000000006,0.5,0.725
+2025-11-19T09:34:54.432542,summarizer,"{""rl_reward"": 0.5, ""user_feedback"": 0.5, ""action_success"": 0.5, ""cognitive_score"": 0.5}",0.725,0.065,0.725,"[{""agent"": ""summarizer"", ""base_weight"": 0.3, ""confidence"": 0.5, ""final_weight"": 0.15, ""signal"": 0.75, ""contribution"": 0.11249999999999999}, {""agent"": ""cognitive"", ""base_weight"": 0.3, ""confidence"": 0.5, ""final_weight"": 0.15, ""signal"": 0.75, ""contribution"": 0.11249999999999999}, {""agent"": ""rl_agent"", ""base_weight"": 0.2, ""confidence"": 0.5, ""final_weight"": 0.1, ""signal"": 0.75, ""contribution"": 0.07500000000000001}, {""agent"": ""embedcore"", ""base_weight"": 0.1, ""confidence"": 0.5, ""final_weight"": 0.05, ""signal"": 0.5, ""contribution"": 0.025}, {""agent"": ""actionsense"", ""base_weight"": 0.1, ""confidence"": 0.5, ""final_weight"": 0.05, ""signal"": 0.75, ""contribution"": 0.037500000000000006}]"
+2025-11-19T15:04:54.698505,summarizer,0.0,0.0,0.5,0.35
+2025-11-19T15:04:54.698505,cognitive,0.0,0.0,0.5,0.35
+2025-11-19T15:04:54.698505,rl_agent,1.0,0.1,0.5,0.35
+2025-11-19T15:04:54.698505,embedcore,0.5,0.025,0.5,0.35
+2025-11-19T15:04:54.698505,actionsense,1.0,0.05,0.5,0.35
+2025-11-19T09:34:54.695761,rl_agent,"{""rl_reward"": 100.0, ""user_feedback"": -10.0, ""action_success"": 1.5, ""cognitive_score"": -5.0}",0.35,0.065,0.35,"[{""agent"": ""summarizer"", ""base_weight"": 0.3, ""confidence"": 0.5, ""final_weight"": 0.15, ""signal"": 0.0, ""contribution"": 0.0}, {""agent"": ""cognitive"", ""base_weight"": 0.3, ""confidence"": 0.5, ""final_weight"": 0.15, ""signal"": 0.0, ""contribution"": 0.0}, {""agent"": ""rl_agent"", ""base_weight"": 0.2, ""confidence"": 0.5, ""final_weight"": 0.1, ""signal"": 1.0, ""contribution"": 0.1}, {""agent"": ""embedcore"", ""base_weight"": 0.1, ""confidence"": 0.5, ""final_weight"": 0.05, ""signal"": 0.5, ""contribution"": 0.025}, {""agent"": ""actionsense"", ""base_weight"": 0.1, ""confidence"": 0.5, ""final_weight"": 0.05, ""signal"": 1.0, ""contribution"": 0.05}]"
+2025-11-19T15:13:20.149315,summarizer,1.0,0.27,0.9,0.8914
+2025-11-19T15:13:20.149315,cognitive,0.85,0.204,0.8,0.8914
+2025-11-19T15:13:20.149315,rl_agent,0.9,0.126,0.7,0.8914
+2025-11-19T15:13:20.149315,embedcore,0.5,0.03,0.6,0.8914
+2025-11-19T15:13:20.149315,actionsense,0.95,0.0475,0.5,0.8914
+2025-11-19T09:43:20.142399,summarizer,"{""rl_reward"": 0.8, ""user_feedback"": 1.0, ""action_success"": 0.9, ""cognitive_score"": 0.7}",0.8914,0.116,0.8914,"[{""agent"": ""summarizer"", ""base_weight"": 0.3, ""confidence"": 0.9, ""final_weight"": 0.27, ""signal"": 1.0, ""contribution"": 0.27}, {""agent"": ""cognitive"", ""base_weight"": 0.3, ""confidence"": 0.8, ""final_weight"": 0.24, ""signal"": 0.85, ""contribution"": 0.204}, {""agent"": ""rl_agent"", ""base_weight"": 0.2, ""confidence"": 0.7, ""final_weight"": 0.13999999999999999, ""signal"": 0.9, ""contribution"": 0.126}, {""agent"": ""embedcore"", ""base_weight"": 0.1, ""confidence"": 0.6, ""final_weight"": 0.06, ""signal"": 0.5, ""contribution"": 0.03}, {""agent"": ""actionsense"", ""base_weight"": 0.1, ""confidence"": 0.5, ""final_weight"": 0.05, ""signal"": 0.95, ""contribution"": 0.0475}]"
+2025-11-19T15:13:20.387290,summarizer,0.75,0.11249999999999999,0.5,0.725
+2025-11-19T15:13:20.387290,cognitive,0.75,0.11249999999999999,0.5,0.725
+2025-11-19T15:13:20.387290,rl_agent,0.75,0.07500000000000001,0.5,0.725
+2025-11-19T15:13:20.387290,embedcore,0.5,0.025,0.5,0.725
+2025-11-19T15:13:20.387290,actionsense,0.75,0.037500000000000006,0.5,0.725
+2025-11-19T09:43:20.384290,summarizer,"{""rl_reward"": 0.5, ""user_feedback"": 0.5, ""action_success"": 0.5, ""cognitive_score"": 0.5}",0.725,0.065,0.725,"[{""agent"": ""summarizer"", ""base_weight"": 0.3, ""confidence"": 0.5, ""final_weight"": 0.15, ""signal"": 0.75, ""contribution"": 0.11249999999999999}, {""agent"": ""cognitive"", ""base_weight"": 0.3, ""confidence"": 0.5, ""final_weight"": 0.15, ""signal"": 0.75, ""contribution"": 0.11249999999999999}, {""agent"": ""rl_agent"", ""base_weight"": 0.2, ""confidence"": 0.5, ""final_weight"": 0.1, ""signal"": 0.75, ""contribution"": 0.07500000000000001}, {""agent"": ""embedcore"", ""base_weight"": 0.1, ""confidence"": 0.5, ""final_weight"": 0.05, ""signal"": 0.5, ""contribution"": 0.025}, {""agent"": ""actionsense"", ""base_weight"": 0.1, ""confidence"": 0.5, ""final_weight"": 0.05, ""signal"": 0.75, ""contribution"": 0.037500000000000006}]"
+2025-11-19T15:13:20.592843,summarizer,0.0,0.0,0.5,0.35
+2025-11-19T15:13:20.592843,cognitive,0.0,0.0,0.5,0.35
+2025-11-19T15:13:20.592843,rl_agent,1.0,0.1,0.5,0.35
+2025-11-19T15:13:20.592843,embedcore,0.5,0.025,0.5,0.35
+2025-11-19T15:13:20.592843,actionsense,1.0,0.05,0.5,0.35
+2025-11-19T09:43:20.584729,rl_agent,"{""rl_reward"": 100.0, ""user_feedback"": -10.0, ""action_success"": 1.5, ""cognitive_score"": -5.0}",0.35,0.065,0.35,"[{""agent"": ""summarizer"", ""base_weight"": 0.3, ""confidence"": 0.5, ""final_weight"": 0.15, ""signal"": 0.0, ""contribution"": 0.0}, {""agent"": ""cognitive"", ""base_weight"": 0.3, ""confidence"": 0.5, ""final_weight"": 0.15, ""signal"": 0.0, ""contribution"": 0.0}, {""agent"": ""rl_agent"", ""base_weight"": 0.2, ""confidence"": 0.5, ""final_weight"": 0.1, ""signal"": 1.0, ""contribution"": 0.1}, {""agent"": ""embedcore"", ""base_weight"": 0.1, ""confidence"": 0.5, ""final_weight"": 0.05, ""signal"": 0.5, ""contribution"": 0.025}, {""agent"": ""actionsense"", ""base_weight"": 0.1, ""confidence"": 0.5, ""final_weight"": 0.05, ""signal"": 1.0, ""contribution"": 0.05}]"
+2025-11-19T15:14:40.410510,summarizer,1.0,0.27,0.9,0.8914
+2025-11-19T15:14:40.410510,cognitive,0.85,0.204,0.8,0.8914
+2025-11-19T15:14:40.410510,rl_agent,0.9,0.126,0.7,0.8914
+2025-11-19T15:14:40.410510,embedcore,0.5,0.03,0.6,0.8914
+2025-11-19T15:14:40.410510,actionsense,0.95,0.0475,0.5,0.8914
+2025-11-19T09:44:40.402486,summarizer,"{""rl_reward"": 0.8, ""user_feedback"": 1.0, ""action_success"": 0.9, ""cognitive_score"": 0.7}",0.8914,0.116,0.8914,"[{""agent"": ""summarizer"", ""base_weight"": 0.3, ""confidence"": 0.9, ""final_weight"": 0.27, ""signal"": 1.0, ""contribution"": 0.27}, {""agent"": ""cognitive"", ""base_weight"": 0.3, ""confidence"": 0.8, ""final_weight"": 0.24, ""signal"": 0.85, ""contribution"": 0.204}, {""agent"": ""rl_agent"", ""base_weight"": 0.2, ""confidence"": 0.7, ""final_weight"": 0.13999999999999999, ""signal"": 0.9, ""contribution"": 0.126}, {""agent"": ""embedcore"", ""base_weight"": 0.1, ""confidence"": 0.6, ""final_weight"": 0.06, ""signal"": 0.5, ""contribution"": 0.03}, {""agent"": ""actionsense"", ""base_weight"": 0.1, ""confidence"": 0.5, ""final_weight"": 0.05, ""signal"": 0.95, ""contribution"": 0.0475}]"
+2025-11-19T15:14:53.092582,summarizer,1.0,0.27,0.9,0.8914
+2025-11-19T15:14:53.092582,cognitive,0.85,0.204,0.8,0.8914
+2025-11-19T15:14:53.092582,rl_agent,0.9,0.126,0.7,0.8914
+2025-11-19T15:14:53.092582,embedcore,0.5,0.03,0.6,0.8914
+2025-11-19T15:14:53.092582,actionsense,0.95,0.0475,0.5,0.8914
+2025-11-19T15:16:23.482383,summarizer,1.0,0.27,0.9,0.8914
+2025-11-19T15:16:23.482383,cognitive,0.85,0.204,0.8,0.8914
+2025-11-19T15:16:23.482383,rl_agent,0.9,0.126,0.7,0.8914
+2025-11-19T15:16:23.482383,embedcore,0.5,0.03,0.6,0.8914
+2025-11-19T15:16:23.482383,actionsense,0.95,0.0475,0.5,0.8914
+2025-11-19T09:46:23.475234,summarizer,"{""rl_reward"": 0.8, ""user_feedback"": 1.0, ""action_success"": 0.9, ""cognitive_score"": 0.7}",0.8914,0.116,0.8914,"[{""agent"": ""summarizer"", ""base_weight"": 0.3, ""confidence"": 0.9, ""final_weight"": 0.27, ""signal"": 1.0, ""contribution"": 0.27}, {""agent"": ""cognitive"", ""base_weight"": 0.3, ""confidence"": 0.8, ""final_weight"": 0.24, ""signal"": 0.85, ""contribution"": 0.204}, {""agent"": ""rl_agent"", ""base_weight"": 0.2, ""confidence"": 0.7, ""final_weight"": 0.13999999999999999, ""signal"": 0.9, ""contribution"": 0.126}, {""agent"": ""embedcore"", ""base_weight"": 0.1, ""confidence"": 0.6, ""final_weight"": 0.06, ""signal"": 0.5, ""contribution"": 0.03}, {""agent"": ""actionsense"", ""base_weight"": 0.1, ""confidence"": 0.5, ""final_weight"": 0.05, ""signal"": 0.95, ""contribution"": 0.0475}]"
+2025-11-19T15:16:23.775063,summarizer,0.75,0.11249999999999999,0.5,0.725
+2025-11-19T15:16:23.775063,cognitive,0.75,0.11249999999999999,0.5,0.725
+2025-11-19T15:16:23.775063,rl_agent,0.75,0.07500000000000001,0.5,0.725
+2025-11-19T15:16:23.775063,embedcore,0.5,0.025,0.5,0.725
+2025-11-19T15:16:23.775063,actionsense,0.75,0.037500000000000006,0.5,0.725
+2025-11-19T09:46:23.771798,summarizer,"{""rl_reward"": 0.5, ""user_feedback"": 0.5, ""action_success"": 0.5, ""cognitive_score"": 0.5}",0.725,0.065,0.725,"[{""agent"": ""summarizer"", ""base_weight"": 0.3, ""confidence"": 0.5, ""final_weight"": 0.15, ""signal"": 0.75, ""contribution"": 0.11249999999999999}, {""agent"": ""cognitive"", ""base_weight"": 0.3, ""confidence"": 0.5, ""final_weight"": 0.15, ""signal"": 0.75, ""contribution"": 0.11249999999999999}, {""agent"": ""rl_agent"", ""base_weight"": 0.2, ""confidence"": 0.5, ""final_weight"": 0.1, ""signal"": 0.75, ""contribution"": 0.07500000000000001}, {""agent"": ""embedcore"", ""base_weight"": 0.1, ""confidence"": 0.5, ""final_weight"": 0.05, ""signal"": 0.5, ""contribution"": 0.025}, {""agent"": ""actionsense"", ""base_weight"": 0.1, ""confidence"": 0.5, ""final_weight"": 0.05, ""signal"": 0.75, ""contribution"": 0.037500000000000006}]"
+2025-11-19T15:16:23.907348,summarizer,0.0,0.0,0.5,0.35
+2025-11-19T15:16:23.907348,cognitive,0.0,0.0,0.5,0.35
+2025-11-19T15:16:23.907348,rl_agent,1.0,0.1,0.5,0.35
+2025-11-19T15:16:23.907348,embedcore,0.5,0.025,0.5,0.35
+2025-11-19T15:16:23.907348,actionsense,1.0,0.05,0.5,0.35
+2025-11-19T09:46:23.903289,rl_agent,"{""rl_reward"": 100.0, ""user_feedback"": -10.0, ""action_success"": 1.5, ""cognitive_score"": -5.0}",0.35,0.065,0.35,"[{""agent"": ""summarizer"", ""base_weight"": 0.3, ""confidence"": 0.5, ""final_weight"": 0.15, ""signal"": 0.0, ""contribution"": 0.0}, {""agent"": ""cognitive"", ""base_weight"": 0.3, ""confidence"": 0.5, ""final_weight"": 0.15, ""signal"": 0.0, ""contribution"": 0.0}, {""agent"": ""rl_agent"", ""base_weight"": 0.2, ""confidence"": 0.5, ""final_weight"": 0.1, ""signal"": 1.0, ""contribution"": 0.1}, {""agent"": ""embedcore"", ""base_weight"": 0.1, ""confidence"": 0.5, ""final_weight"": 0.05, ""signal"": 0.5, ""contribution"": 0.025}, {""agent"": ""actionsense"", ""base_weight"": 0.1, ""confidence"": 0.5, ""final_weight"": 0.05, ""signal"": 1.0, ""contribution"": 0.05}]"
+2025-11-19T15:20:24.866406,summarizer,1.0,0.27,0.9,0.8914
+2025-11-19T15:20:24.866406,cognitive,0.85,0.204,0.8,0.8914
+2025-11-19T15:20:24.866406,rl_agent,0.9,0.126,0.7,0.8914
+2025-11-19T15:20:24.866406,embedcore,0.5,0.03,0.6,0.8914
+2025-11-19T15:20:24.866406,actionsense,0.95,0.0475,0.5,0.8914
+2025-11-19T09:50:24.859295,summarizer,"{""rl_reward"": 0.8, ""user_feedback"": 1.0, ""action_success"": 0.9, ""cognitive_score"": 0.7}",0.8914,0.116,0.8914,"[{""agent"": ""summarizer"", ""base_weight"": 0.3, ""confidence"": 0.9, ""final_weight"": 0.27, ""signal"": 1.0, ""contribution"": 0.27}, {""agent"": ""cognitive"", ""base_weight"": 0.3, ""confidence"": 0.8, ""final_weight"": 0.24, ""signal"": 0.85, ""contribution"": 0.204}, {""agent"": ""rl_agent"", ""base_weight"": 0.2, ""confidence"": 0.7, ""final_weight"": 0.13999999999999999, ""signal"": 0.9, ""contribution"": 0.126}, {""agent"": ""embedcore"", ""base_weight"": 0.1, ""confidence"": 0.6, ""final_weight"": 0.06, ""signal"": 0.5, ""contribution"": 0.03}, {""agent"": ""actionsense"", ""base_weight"": 0.1, ""confidence"": 0.5, ""final_weight"": 0.05, ""signal"": 0.95, ""contribution"": 0.0475}]"
+2025-11-19T15:24:50.548914,summarizer,1.0,0.27,0.9,0.8914
+2025-11-19T15:24:50.548914,cognitive,0.85,0.204,0.8,0.8914
+2025-11-19T15:24:50.548914,rl_agent,0.9,0.126,0.7,0.8914
+2025-11-19T15:24:50.548914,embedcore,0.5,0.03,0.6,0.8914
+2025-11-19T15:24:50.548914,actionsense,0.95,0.0475,0.5,0.8914
